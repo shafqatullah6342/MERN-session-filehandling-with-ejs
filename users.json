@@ -1,0 +1,26 @@
+[
+  {
+    "uid": "bf3b81bf-d0eb-4427-8733-5faf6ea0475e",
+    "email": "citica1615@rebation.com",
+    "password": "1",
+    "wallet": 4442
+  },
+  {
+    "uid": "92918df7-e10d-4908-9768-3855d21a5b0d",
+    "email": "alih54803@gmail.com",
+    "password": "1",
+    "wallet": -18
+  },
+  {
+    "uid": "77981ea3-0242-4305-9044-1e9deabcd153",
+    "email": "to@gmail.com",
+    "password": "1",
+    "wallet": 1994
+  },
+  {
+    "uid": "d9922154-aa34-4e65-93d5-2078c998f910",
+    "email": "from@gmail.com",
+    "password": "1",
+    "wallet": 5043
+  }
+]

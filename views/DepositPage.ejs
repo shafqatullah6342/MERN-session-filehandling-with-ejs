@@ -1,0 +1,33 @@
+<%- include('partials/header') -%>
+
+    <div class="d-flex vh-100 align-items-center justify-content-center login_bg">
+        <!-- Form div -->
+        <div class="center card col-6 form_bg pt-3 px-5 pb-5 shadow-sm">
+            <%if (bg===1 && status!==null ) {%>
+                <h5 class="p-2 bg-success">
+                    <%= status %>
+                </h5>
+                <% } else if(bg===0 && status!==null) {%>
+                    <h5 class="p-2 bg-danger">
+                        <%= status %>
+                    </h5>
+
+                    <% } %>
+                        <div class="d-flex justify-content-center  ">
+                            <h1>Deposit Amount</h1>
+                        </div>
+                        <div class="text-center mt-4">
+                            <form method="post" action="/deposit" enctype="application/x-www-form-urlencoded">
+                                <div class="form-floating ">
+                                    <input type="number" name="amount" class="form-control" id="amount"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Amount to deposit</label>
+                                </div>
+                                <div class="d-flex flex mt-3 justify-content-between">
+                                    <button class="btn-primary rounded-3 align-items-start py-2 px-5" type="submit">Deposit</button>
+                                </div>
+                            </form>
+                        </div>
+        </div>
+    </div>
+    <%- include('partials/footer') -%>

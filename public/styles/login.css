@@ -1,0 +1,33 @@
+.nav-bg {
+    background-color: rgba(65, 64, 64, 0.801) !important;
+}
+
+.login_bg {
+    background-color: rgb(173, 173, 173);
+}
+
+#font-style {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+
+}
+
+h1 {
+
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form_bg {
+    background-color: rgba(212, 212, 212, 0.637) !important;
+    border-radius: 15px !important;
+
+}
+
+.send_form {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+
+}

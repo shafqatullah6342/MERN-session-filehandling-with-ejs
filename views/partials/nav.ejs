@@ -1,0 +1,25 @@
+<nav class="navbar container-fluid  nav-bg  navbar-expand-sm navbar-dark ">
+    <div class="container-fluid  py-2">
+        <a class="navbar-brand " id="font-style" href="/">ROYALO BANK</a>
+        <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+            aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarID">
+
+            <% if (user !==null) { %>
+                <div class="navbar-nav" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;                  
+                    font-size: large; font-weight: bold; ">
+                    <a class="nav-link active" aria-current="page" href="/deposit">Deposit</a>
+                    <a class="nav-link active" aria-current="page" href="/withdraw">Withdraw</a>
+                    <a class="nav-link active" aria-current="page" href="/send">Send</a>
+                </div>
+                <% } %>
+
+                    <!--  <div class="navbar-nav me-5">
+                <a class="nav-link active" aria-current="page" href="/login_page">Login</a>
+            </div>
+        </div> -->
+        </div>
+    </div>
+</nav>
